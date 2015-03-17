@@ -42,6 +42,7 @@ if($user->isLoggedIn()) {
 
 function myFunction() {
     document.getElementById("demo").innerHTML = "Hello World";
+    
 }
 
 
@@ -69,7 +70,7 @@ function myFunction() {
                     <span class="icon-bar"></span>
                 </button>
    
-                <a class="navbar-brand" href="index.html"><h4 style="color:green";> <i>Software Defined Networking</i> - <b>YOU ARE IN CONTROL !</b></h4></a>
+                <a class="navbar-brand" href="index.html"><h4 style="color:green";> <i>Software Defined Networking NEW WEB</i> - <b>YOU ARE IN CONTROL !</b></h4></a>
             </div>
            
             <div class="navbar-default sidebar" role="navigation" colour>
@@ -80,11 +81,11 @@ function myFunction() {
                             <a class="active" href="index.php"><i style="color:orange" class="fa fa-rss"></i> Network</a>
                         </li>
 						
-						                        <li>
+						                       <!--  <li> -->
                           <!--   <a class="active" href="manager.html"><i style="color:green" class="fa fa-money"></i> Manager</a>
                         </li> -->
 						
-						                        <li>
+						                        <!-- <li> -->
                         <!--     <a class="active" href="index.html"><i style="color:purple" class="fa fa-globe"></i> Devices</a>
                         </li>
 						
@@ -149,15 +150,6 @@ function myFunction() {
                         <!-- /.panel-heading -->
                         <div class="panel-body">
 						
-						
-						
-						
-						
-						
-						
-						
-						
-
                         <!-- /.panel-heading -->
 
                     <!--THIS IS WHERE WE CAN UPDATE THE TABLE WITH DIFFERENT MAC RULES-->
@@ -167,9 +159,6 @@ function myFunction() {
 
 
 
-<p id="demo"></p>
-
-                        
                         <div class="panel-body">
                             <div class="table-responsive">
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
@@ -234,8 +223,13 @@ function myFunction() {
 											<button type="button" class="btn btn-primary" onclick="myFunction()">Change Settings</button>
 											<br />
 											<br />
-										    <button type="button" class="btn btn-primary" onclick="myFunction()">
+										    <button type="button" class="btn btn-primary" action ="script.php">
                                                 Remove user</button>
+                                                
+                                                
+                                                               
+                                <button type="button" class="btn btn-primary" onclick="script.php">
+                                                SUBMIT </button>
 											
 											
 										
@@ -255,14 +249,11 @@ function myFunction() {
                             <i class="fa fa-group"></i><b> Groups </b>
 
                         </div>
-                        <!-- /.panel-heading -->
+                        /.panel-heading
 
 
-
-                    <!-- THIS IS WHERE YOU CAN UPDATE THE DIFFERENT TABLES ON THE WEB PAGE-->
-
-                        <!-- 
-                        <div class="panel-body">
+                    THIS IS WHERE YOU CAN UPDATE THE DIFFERENT TABLES ON THE WEB PAGE
+                                                <div class="panel-body">
 						
 					
 										
@@ -301,17 +292,14 @@ function myFunction() {
 											
                                         </div></div>
                             </div>
-                            <!-- /.row -->
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
+                            /.row                        </div>
+                        /.panel-body                    </div>
 					</div>
 					</div> 
 					
 							
 
-                        <!-- /.panel-body -->
-                  
+                        /.panel-body                  
 					
 					
 					
@@ -338,8 +326,7 @@ function myFunction() {
 
                         </div>
                         
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
+                        /.panel-heading                        <div class="panel-body">
 						
 					
 										<div class="panel-body">
@@ -469,65 +456,49 @@ function myFunction() {
                             
 
 
-                        <!-- /.panel-body -->
-                    </div>
-                            <!-- /.row -->
-                        </div>     
+                        /.panel-body                    </div>
+                            /.row                        </div>     
                         		                         
   								</div>
                             </div>
                         </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
+                        /.panel-body                    </div>
+                    /.panel                </div>
             
-            <!-- /.row -->
-            <div class="row">
+            /.row            <div class="row">
 
 
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /#page-wrapper -->
-
+            /.row        </div>
+        /#page-wrapper
     </div>
-    <!-- /#wrapper -->
+    /#wrapper
 
-
-    <!-- Morris Charts JavaScript -->
-    <script src="js/plugins/morris/raphael.min.js"></script>
+    Morris Charts JavaScript    <script src="js/plugins/morris/raphael.min.js"></script>
     <script src="js/plugins/morris/morris.min.js"></script>
     <script src="js/plugins/morris/morris-data.js"></script>
 
 	
 	
-	    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
+	    jQuery Version 1.11.0    <script src="js/jquery-1.11.0.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    Bootstrap Core JavaScript    <script src="js/bootstrap.min.js"></script>
 
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="js/plugins/metisMenu/metisMenu.min.js"></script>
+    Metis Menu Plugin JavaScript    <script src="js/plugins/metisMenu/metisMenu.min.js"></script>
 
-    <!-- DataTables JavaScript -->
-    <script src="js/plugins/dataTables/jquery.dataTables.js"></script>
+    DataTables JavaScript    <script src="js/plugins/dataTables/jquery.dataTables.js"></script>
     <script src="js/plugins/dataTables/dataTables.bootstrap.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/sb-admin-2.js"></script>
+    Custom Theme JavaScript    <script src="js/sb-admin-2.js"></script>
 
-    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
-    <script>
+    Page-Level Demo Scripts - Tables - Use for reference    <script>
     $(document).ready(function() {
         $('#dataTables-example').dataTable();
     });
     </script>
 	
 	
-	    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
-    <script>
+	    Page-Level Demo Scripts - Tables - Use for reference    <script>
     $(document).ready(function() {
         $('#dataTables-example').dataTable();
     });
